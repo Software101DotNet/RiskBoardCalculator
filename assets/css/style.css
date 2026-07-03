@@ -270,9 +270,9 @@ code {
 }
 
 .hero-icon {
-  width: 96px;
-  height: 96px;
-  border-radius: 22px;
+  width: 192px;
+  height: 192px;
+  border-radius: 44px;
   margin-bottom: 24px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
