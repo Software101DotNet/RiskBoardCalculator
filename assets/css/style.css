@@ -269,6 +269,14 @@ code {
   text-transform: uppercase;
 }
 
+.hero-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
 .hero h1 { margin-bottom: 20px; }
 
 .hero-subtitle {
@@ -372,6 +380,15 @@ code {
   gap: 0;
   min-height: calc(100vh - var(--header-height));
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.docs-layout--full {
+  grid-template-columns: 1fr;
+}
+
+.docs-layout--full .docs-content {
+  max-width: 860px;
   margin: 0 auto;
 }
 
