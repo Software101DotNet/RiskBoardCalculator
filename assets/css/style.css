@@ -349,6 +349,34 @@ code {
 .card p { font-size: 15px; margin: 0 0 16px; }
 .card a { font-size: 15px; font-weight: 500; }
 
+/* ─── Screenshot grid ──────────────────────────────── */
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.screenshot {
+  margin: 0;
+}
+
+.screenshot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+.screenshot figcaption {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
 /* ─── Section wrapper ──────────────────────────────── */
 
 .section {
